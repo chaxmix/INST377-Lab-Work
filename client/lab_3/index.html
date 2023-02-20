@@ -26,25 +26,17 @@
         <div class='right_section box'>
             <h3>Image Carousel</h3>
             <div class='carousel'>
-                <div class='carousel_item visible'>
-                    <img src="images/husky1.jpeg"/>
+                <button class='prev'>prev</button>
+                <div class='slides'>
+                        <div class='carousel_item visible'><img id="slide_1" src="images/husky1.jpg" alt="An image of a husky"/></div>
+                        <div class='carousel_item hidden'><img id="slide_2" src="images/husky2.jpg" alt="An image of a husky"/></div>
+                        <div class='carousel_item hidden'><img id="slide_3" src="images/husky3.jpg" alt="An image of a husky"/></div>
+                        <div class='carousel_item hidden'><img id="slide_4" src="images/husky4.jpg" alt="An image of a husky"/></div>
                 </div>
-                <div class='carousel_item hidden'>
-                    <img src="images/husky2.jpeg"/>
-                </div>
-                <div class='carousel_item hidden'>
-                    <img src="images/husky3.jpeg"/>
-                </div>
-                <div class='carousel_item hidden'>
-                    <img src="images/husky4.jpeg"/>
-                </div>
+                <button class='next'>next</button>
             </div>
             <div class='box'>
                 <p>Cute pictures of siberian huskies!</p> 
-            </div>
-            <div>
-                <a class="prev" onclick="updateSlidePosition(-1)">prev</a>
-                <a class="next" onclick="updateSlidePosition(1)">next</a>
             </div>
         </div>
     </div>

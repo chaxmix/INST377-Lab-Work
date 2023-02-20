@@ -244,6 +244,7 @@ div.carousel {
 
 .prev,
 .next {
+
   border: none;
   margin: 2px;
   text-align: center;
@@ -263,5 +264,6 @@ div.carousel {
 
 .prev:hover,
 .next:hover {
+  background-color: rgba(239, 128, 31, 0.8)
   /* Pick a good background colour for your hover pseudoclass */
 }
